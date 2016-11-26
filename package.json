@@ -1,0 +1,44 @@
+{
+  "name": "sensors.js",
+  "version": "1.1.3",
+  "description": "lm-sensors parser for node.js",
+  "main": "lm-sensors.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sensors",
+    "parser",
+    "lm-sensors"
+  ],
+  "author": {
+    "name": "BeryJu",
+    "email": "jens@beryju.org"
+  },
+  "license": "ISC",
+  "_id": "sensors.js@1.1.2",
+  "_shasum": "1885a3de71d098e1cd90d75c763e37c012652e30",
+  "_from": "sensors.js@",
+  "_npmVersion": "2.5.0",
+  "_nodeVersion": "0.10.36",
+  "_npmUser": {
+    "name": "beryju",
+    "email": "jenslanghammer@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "beryju",
+      "email": "jenslanghammer@gmail.com"
+    }
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/BeryJu/sensors.js"
+  },
+  "dist": {
+    "shasum": "1885a3de71d098e1cd90d75c763e37c012652e30",
+    "tarball": "https://registry.npmjs.org/sensors.js/-/sensors.js-1.1.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/sensors.js/-/sensors.js-1.1.2.tgz"
+}
