@@ -92,7 +92,7 @@ var parser = function (sensors_output) {
 module.exports = {
     sensors: function (done) {
         var sensors = childProcess.exec('sensors', function (error, stdout, stderr) {
-           if (error) done(null, error);
+           if (error) return done(null, error);
            done(parser(stdout.toString()), null);
         });
     },
