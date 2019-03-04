@@ -1,7 +1,7 @@
 var util = require("util");
 var childProcess = require('child_process');
 
-var rMatchDevice = new RegExp(".*(acpitz|-acpi-|i2c|pci|isa).*");
+var rMatchDevice = new RegExp(".*(acpitz|-acpi-|-virtual-|i2c|pci|isa).*");
 var rMatchAdapter = /(Adapter:\s*)([A-Za-z0-9\-:.\s]*)/;
 // Group 1: Name
 // Group 2: Value
