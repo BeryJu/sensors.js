@@ -90,8 +90,10 @@ var parser = function (sensors_output) {
 // parser(output);
 
 module.exports = {
-    sensors: function (done) {
-        var sensors = childProcess.exec('sensors', function (error, stdout, stderr) {
+    sensors: function (done, devices = []) {
+        const commandElements = ['sensors'].concat(devices);
+        const command = commandElements.join(" ");
+        const sensors = childProcess.exec(command, function (error, stdout, stderr) {
            if (error) return done(null, error);
            done(parser(stdout.toString()), null);
         });
