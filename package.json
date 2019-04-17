@@ -4,7 +4,7 @@
   "description": "lm-sensors parser for node.js",
   "main": "lm-sensors.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "sensors",
@@ -32,13 +32,17 @@
     }
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/BeryJu/sensors.js"
+    "type": "git",
+    "url": "https://github.com/BeryJu/sensors.js"
   },
   "dist": {
     "shasum": "1885a3de71d098e1cd90d75c763e37c012652e30",
     "tarball": "https://registry.npmjs.org/sensors.js/-/sensors.js-1.1.2.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/sensors.js/-/sensors.js-1.1.2.tgz"
+  "_resolved": "https://registry.npmjs.org/sensors.js/-/sensors.js-1.1.2.tgz",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.1.3"
+  }
 }
